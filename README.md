@@ -26,17 +26,16 @@
 ------
 
 - 显卡  
-- 声卡  
+- 声卡  (注入id：47)
 - hdmi输出  
-- type-c（全部功能正常）  
 - 网卡(使用usb网卡) 
 - 触摸板正常，手势全部可用。  
 - usb全部正常。  
 - 电池电量显示正常。  
 - 摄像头正常使用 
-- 睡眠正常。  
+- 睡眠正常,支持fn+insert键睡眠。  
 - 变频正常。  
-- 支持原生亮度快捷键和fn+insert键睡眠。  
+- 支持原生亮度快捷键。  
 - 触摸板手势支持拖移锁定。
 
 ## 安装中遇到的问题
@@ -45,7 +44,7 @@
 
 - 安装原版完成后，提示未能完成安装。不用管他直接点重启即可（Restart），其实已经安装成功。目前原因未知，我有一次安装遇到这个问题
 - 安装好后无法使用触摸板，或者升级后触控板无法使用。你需要在每次更新系统后重建缓存。运行 `Kext Utility.app` 或者在 `终端.app` 输入 `sudo kextcache -i /`，然后重启。  
-- 耳机插上没有声音。请安装ALCPlugFix守护进程
+- 耳机插上没有声音。请安装[ALCPlugFix]([https://github.com/MartinYik/Dell-Inspiron-5580-hackintosh/blob/master/ALCPlugFix/install%E5%8F%8C%E5%87%BB%E8%87%AA%E5%8A%A8%E5%AE%89%E8%A3%85.command](https://github.com/MartinYik/Dell-Inspiron-5580-hackintosh/blob/master/ALCPlugFix/install双击自动安装.command))守护进程
 
 ## 更新日志
 
